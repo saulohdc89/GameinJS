@@ -183,9 +183,11 @@ document.getElementById('iniciar').addEventListener('click',  startGame);
 	  }
 	  else if(colortoChoice == colorAnswer){
 		  alert('Parabéns, você acertou');
-		  vidas = 0;
+		  retry = 0;
 		}
+		alert('Fim do jogo');
 	  }
+	  
   }
   
   
